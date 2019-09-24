@@ -34,10 +34,12 @@ nav.horizontal li{
    float:left;
    width:16.66%;
 }
-
+nav a{
+   display:block;
+}
 
 /* Row Styles */
-nav.newRow{
+nav.newRow::after{
    width:100;
    display:table;
    clear:both;
@@ -76,13 +78,41 @@ div.col-3-4{
 div.specials{
    min-height:400px;
    outline:1px;
-   
+   background-color:rgb(71,52,29);
+   outline-style: dashed;
 }
 
 
 /* Award Styles */
-
-
+div#awardList{
+   height:650px;
+   overflow:scroll;
+   position:relative;
+}
+div#award1{
+   top: 80px;
+   left: 5%; 
+}
+div#award2{
+   top: 280px;
+   left: 60% ;
+}
+div#award3{
+   top: 400px; 
+   left: 20%; 
+}
+div#award4{
+   top: 630px;
+   left: 45%;
+}
+div#award5{
+   top: 750px;
+   left: 5%;
+}
 
 /* Footer Styles */
-
+footer{
+   clear:both;
+   content:"";
+   display:table;
+}
