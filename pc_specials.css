@@ -89,6 +89,10 @@ div#awardList{
    overflow:scroll;
    position:relative;
 }
+div.award{
+   position:absolute;
+   width:30%;
+}
 div#award1{
    top: 80px;
    left: 5%; 
